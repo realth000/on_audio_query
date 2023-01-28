@@ -15,11 +15,17 @@ environment:
 dependencies:
   # on_audio_query
   on_audio_query_platform_interface:
-    path: ../on_audio_query_platform_interface
+    git:
+      url: https://github.com/realth000/on_audio_query
+      path: on_audio_query_platform_interface
   on_audio_query_android:
-    path: ../on_audio_query_android
+    git:
+      url: https://github.com/realth000/on_audio_query
+      path: on_audio_query_android
   on_audio_query_ios:
-    path: ../on_audio_query_ios
+    git:
+      url: https://github.com/realth000/on_audio_query
+      path: on_audio_query_ios
 
   # Flutter
   flutter:
