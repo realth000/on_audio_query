@@ -3,9 +3,9 @@ import 'dart:io';
 
 import 'package:on_audio_query_platform_interface/on_audio_query_platform_interface.dart';
 
-import '/src/methods/helpers/query_helper_io.dart';
-import '/src/methods/queries/audios_query.dart';
-import '/src/methods/queries/albums_query.dart';
+import '../../methods/helpers/query_helper_io.dart';
+import '../../methods/queries/albums_query.dart';
+import '../../methods/queries/audios_query.dart';
 
 ///
 class AlbumsObserver implements ObserverInterface {

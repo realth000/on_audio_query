@@ -3,8 +3,8 @@ import 'dart:io';
 
 import 'package:on_audio_query_platform_interface/on_audio_query_platform_interface.dart';
 
-import '/src/methods/helpers/query_helper_io.dart';
-import '/src/methods/queries/genres_query.dart';
+import '../../methods/helpers/query_helper_io.dart';
+import '../../methods/queries/genres_query.dart';
 
 ///
 class GenresObserver implements ObserverInterface {
