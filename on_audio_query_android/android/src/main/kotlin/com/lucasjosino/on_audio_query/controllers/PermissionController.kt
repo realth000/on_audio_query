@@ -20,7 +20,7 @@ class PermissionController(
     private lateinit var result: MethodChannel.Result
 
     //
-    private val permissions = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+    private val permissions = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
         arrayOf(
             Manifest.permission.READ_MEDIA_AUDIO
         )
